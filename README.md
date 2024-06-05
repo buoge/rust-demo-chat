@@ -82,3 +82,16 @@ cargo nextest 是一个 Rust 增强测试工具。
 cargo install cargo-nextest --locked
 ```
 >>>>>>> 4094d1a (init project)
+
+## demo chat
+安装 pg 在 4-6 42:53 位置
+
+brew search postgresql
+
+cargo install sqlx --no-default-features --features results --features postgres
+
+sqlx migrate add initial
+
+brew install pgcli
+
+pgcli chat
